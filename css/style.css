@@ -4,3 +4,97 @@ body {
     font-family: "Lato", sans-serif;
     font-size: 20px;
 }
+
+#main {
+    background-color: rgb(190, 187, 151);
+    max-width: 1280px;
+    max-height: 100%;
+    margin: 30px auto;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+#title {
+    font-size: 1.7em;
+    text-align: center;
+}
+
+#subtitle {
+    font-size: 1.4em;
+    text-align: start;
+    text-decoration: underline;
+    margin-left: 3em;
+}
+
+main>p {
+    text-align: center;
+    font-size: 0.8em;
+}
+
+blockquote {
+    text-align: center;
+    font-size: 0.65em;
+}
+
+#img-div {
+    width: 55%;
+    height: 100%;
+    padding: 15px;
+    background-color: #ffffff;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 1em auto;
+}
+
+.img-div1 {
+    width: 55% !important;
+    float: left !important;
+    margin-right: 0.8em !important;
+}
+
+.img-div2 {
+    width: 35% !important;
+    float: right !important;
+    margin-left: 0.8em !important;
+}
+
+.img-div3 {
+    width: 90% !important;
+}
+
+#image {
+    display: block;
+    max-width: 70%;
+    padding-bottom: 10px;
+}
+
+#image2 {
+    display: block;
+    max-width: 70%;
+    padding-bottom: 10px;
+}
+
+#img-caption {
+    max-width: 90%;
+    text-align: center;
+    font-size: 0.7em;
+    font-style: italic;
+    font-weight: 600;
+}
+
+#tribute-info {
+    max-width: 1000px;
+    margin: 0 auto;
+    line-height: 1.2em;
+    text-align: justify;
+    font-size: 0.8em;
+}
+
+ol {
+    max-width: 550px;
+    margin: 0 auto 50px auto;
+    text-align: left;
+    line-height: 1.6;
+    list-style-type: upper-roman;
+}
